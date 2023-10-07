@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Rubik+80s+Fade&family=Rubik+Gemstones&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Passions+Conflict&family=Rubik+80s+Fade&family=Rubik+Gemstones&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/background3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heade{
+    margin-top: 3vh;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heade ul li{
+    display: inline-block;
+    margin: 3vh;
+    margin-top: 8vh;
+    margin: 0 4vw;
+}
+.heade ul li a{
+    font-size: 4vh;
+    font-family: 'Pacifico', cursive;
+    color: rgb(255, 121, 121);
+    text-decoration: none;
+}
+.heade ul :hover{
+    transform: scale(1.2);
+    color: aliceblue;
+    transition-duration: 0.5s;
+}
+.main1 h1 center{
+    color:antiquewhite;
+    font-family: 'Rubik Gemstones', cursive;
+    display: flex;
+    justify-content: center;
+    margin-left: 10vw;
+}
+.main1{
+    margin-top: 0px;
+    display: inline-block;
+    margin-top: 5vh;
+    font-size: 3.5vh;
+    margin-bottom: 5vh;
+}
+.main2b{
+    color: aliceblue;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+.main2a{
+    display: flex;
+    justify-content: center;
+}
+.main2a a img{
+    border-radius: 20px;
+}
+.main2a :hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+.main2c{
+    color: wheat;
+    margin: 0 10vw ;
+    text-align: justify;
+}
+.hp{
+    display: flex;
+    justify-content: center;
+}
+.Englishr{
+    color:antiquewhite;
+    font-family: 'Rubik Gemstones', cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 9vh;
+    margin: 5vh 0;
+}
